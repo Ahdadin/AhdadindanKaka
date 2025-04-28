@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Sekolah</title>
+<meta charset="UTF-8" />
+<link rel="shortcut icon" type="x-icon" href="logo pal1.png">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="page">
+    <div id="header">
+        <div id="section">
+            <div><a href="index.html"><img src="images/logo.png" style="width: 200px; height: auto;" alt="" /></a></div>
+            <span>SMK bisa!!!<br>
+            </br>Belajar teknologi untuk membangun bangsa.</span> </div>
+        <nav>    
+        <ul>
+            <li class="current"><a href="index.html">Beranda</a></li>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="demokrasiku.html">Demokrasi</a></li>
+            <li><a href="kritik.html">Kritik</a></li>
+        </ul>
+        </nav>
+    </div>
+    <div id="title">
+        <div>
+            <h3>Beranda</h3>
+                <h2>Selamat datang di website sekolah</h2>
+                <p>SMK BISA!!!</p>
+            </div>
+        </div>
+    </div>
+    <div class ="card img">
+    </div>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            color: #060606;
+            text-align: center;
+        }
+        
+        /* HEADER */
+        #header {
+            padding: 20px 0;
+            background-color: #62929E;
+        }
+        .slogan {
+            font-size: 18px;
+            font-weight: bold;
+            color:#C3EB78 ;
+            margin-top: 10px;
+            text-align: center;
+            
+        }
+        .image {
+          margin-bottom: 10px;
+          align-items: center;
+          align-content: start;
+        }
+        
+        /* NAVIGATION */
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background: #62929E;
+            ;
+            padding: 10px 0;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #fff;
+            padding: 10px;
+            transition: 0.3s;
+        }
+        
+        nav ul li a:hover,
+        nav ul li.current a {
+            background: #62929E;
+            background-color: #393D3F;
+            color: #ffffff;
+            border-radius: 10px;
+        }
+        
+        /* CONTENT */
+        main {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            color: #f8f4f4;
+        }
+        
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #393D3F;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            font-style: bold;
+            color:#1c1e16;
+            margin-bottom: 10px;
+        }
+        
+        .description {
+            font-size: 12px;
+            font-style: italic;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        
+        /* STRUKTUR KELAS */
+        .struktur-kelas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .card {
+            width: 200px;
+            text-align: center;
+            background: C6C5B9;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px FDFDFF;
+            transition: transform 0.3s;
+        }
+        
+        .card img {
+            width: 120px;
+            height: 160px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Grid untuk struktur kelas */
+        .struktur-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        /* Level Wali Kelas */
+        .level-wali {
+            display: flex;
+            justify-content: center;
+        }
+        
+        /* Level Ketua dan Wakil Ketua */
+        .level-ketua {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        
+        /* Level Sekretaris dan Bendahara */
+        .level-sekretaris-bendahara {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        /* FOOTER */
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            color: #FDFDFF;
+        }
+        </style>
+       
+</body>
+</html>
